@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+<link rel="shortcut icon" href="cat.png" />
+	<style>
+	.column {
+  float: left;
+  width: 33.33%; /* Hide columns by default */
+}
+body {
+  padding: 20px;
+}
+
+		.content {
+  
+  padding: 10px;
+}
+img{
+	border-radius: 20px;}
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+.flip-box-inner {
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.zoom{
+	transition: transform .2s;
+}
+#computer1{
+			opacity:1;
+			transition: all 1s;
+		}
+		#computer1:hover{
+			opacity:1;
+			transform: rotate(360deg);
+		}
+#computer2{
+			transition: 1s;
+		}
+		#computer2:hover{
+			opacity:1;
+			 transform: scale(2,2);
+		}
+#computer3{
+			transition: all 1s;
+		}
+		#computer3:hover{
+			transform: translate(50px,0px);
+		}
+#computer4{
+			transition: all 1s;
+		}
+		#computer4:hover{
+			transform: translate(-50px,0px);
+		}
+#computer5{
+			transition: all 1s;
+		}
+		#computer5:hover{
+			transform: translate(0px,50px);
+		}
+
+#computer6{
+			transition: all 1s;
+		}
+		#computer6:hover{
+			transform: translate(0px,-50px);
+		}
+
+#computer7{
+			transition: all 3s;
+		}
+		#computer7:hover{
+			background-color: red;
+border-radius:20px;
+		}
+#computer8{
+			transition: all 3s;
+		}
+		#computer8:hover{
+			border:1px solid red;
+width:33%;
+		}
+#computer9{
+			transition: all 3s;
+		}
+		#computer9:hover{
+			opacity:0.7;
+		}
+
+                 #computer10{
+			transition: all 3s;
+		}
+		#computer10:hover{
+			  outline: 5px dotted green;
+width:33%;
+		}
+
+</style>
+
+
+</head>
+<body>
+	<center>
+<div class="column people flip-box">
+    <div class="content flip-box-inner">
+      <img src="cat.png" alt="People" style="width:50%">
+      
+    </div>
+  </div><div class="column people zoom">
+    <div class="content">
+      <img src="cat.png" alt="People" style="width:50%">
+      
+    </div>
+  </div><div class="column" id="computer1">
+    <div class="content flip-box-inner">
+      <img src="cat.png" alt="People" style="width:50%">
+      
+    </div>
+  </div><div class="column" id="computer2">
+    <div class="content flip-box-inner">
+      <img src="cat.png" alt="People" style="width:50%">
+      
+    </div>
+  </div>
+  <div class="column" id="computer3">
+    <div class="content flip-box-inner">
+      <img src="cat.png" alt="People" style="width:50%">
+      
+    </div>
+  </div>
+  <div class="column" id="computer4">
+    <div class="content flip-box-inner">
+      <img src="cat.png" alt="People" style="width:50%">
+      
+    </div>
+  </div>
+  <div class="column" id="computer5">
+    <div class="content flip-box-inner">
+      <img  src="cat.png" alt="People" style="width:50%">
+      
+    </div>
+  </div>
+  <div class="column" id="computer6">
+    <div class="content flip-box-inner">
+      <img src="cat.png" alt="People" style="width:50%">
+      
+    </div>
+  </div>
+  <div class="column" id="computer7">
+    <div class="content flip-box-inner">
+      <img src="cat.png" alt="People" style="width:50%">
+      
+    </div>
+  </div>
+  <div class="column" id="computer8">
+    <div class="content flip-box-inner">
+      <img src="cat.png" alt="People" style="width:50%">
+      
+    </div>
+  </div>
+  <div class="column" id="computer9">
+    <div class="content flip-box-inner">
+      <img src="cat.png" alt="People" style="width:50%">
+      
+    </div>
+  </div>
+  <div class="column" id="computer10">
+    <div class="content flip-box-inner">
+      <img src="cat.png" alt="People" style="width:50%">
+      
+    </div>
+  </div>
+</center></body>
+</html>
